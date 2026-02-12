@@ -1,12 +1,6 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.10)
 
-project(TaskSystem)
+project(CppTest)
 
-# Core library
-add_subdirectory(taskcore)
-
-# Extras
-add_subdirectory(taskextras)
-
-# Application
-add_subdirectory(app)
+add_subdirectory(core)
+add_subdirectory(additional)
